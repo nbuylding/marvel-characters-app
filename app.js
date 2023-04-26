@@ -1,11 +1,10 @@
 'use strict';
+import API_KEY from './config.js';
 
 const submit = document.querySelector('#submit');
 const input = document.querySelector('input');
 const characterContainer = document.querySelector('#display-character');
 const clearField = document.getElementById('clear');
-
-const API_KEY = '864b66d60f1dfd10360c730f62f98f74';
 
 const fetchData = function () {
 	const characterInput = input.value;
